@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Mogra&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+body {
+  margin: 0;
+  font-family: 'Mogra', cursive, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ShowCase Area */
+.bg{
+  background: url(./components/Display/bg.png) center center/cover no-repeat;  
+}
+/* Hover for Cards */
+.cardstyle:hover{
+  transform: rotateZ(10deg);
+  transform: scale(1.1)
+}
+
+.sixty{
+  width: 80%;
+  margin: auto;
+}
+/* Service */
+.primary{
+  color: rgb(241, 227, 30)
+}
+
+/* image */
+.img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.wrap{
+  height: 100vh;
+  overflow-Y: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .cardstyle {
+    width: 100%;
+    height: 350px;
+  }
+  .cardstyle:hover{
+    transform: none
+  }
+}
