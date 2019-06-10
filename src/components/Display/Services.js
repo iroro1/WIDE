@@ -48,6 +48,10 @@ class Services extends Component {
         }else{
             showService = this.state.services.sort()
         }
+
+        const shuff = showService.sort(()=> 0.5 - Math.random())
+
+        let showService1 = shuff.slice(0,showService.length)
         return (
         <React.Fragment>
             <Helmet>
@@ -71,7 +75,7 @@ class Services extends Component {
            
                <div className='row wrap'>
                {
-                showService.map((item,i) => {
+                showService1.map((item,i) => {
                     return (
                         <div className='col-lg-4 col-md-6 col-sm-12 py-1 ' key={item.id}>
                         
