@@ -40,7 +40,6 @@ const cardstyle ={
   flexDirection: 'column',
   boxShadow:' -1px 10px 15px rgba(0,0,0,0.59), 0 6px 6px rgba(0,0,0,0.3)',
   margin: '2px',
-//   alignItems: 'space-between',
 }
 const ico = {
     display: 'flex',

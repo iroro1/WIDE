@@ -23,7 +23,7 @@ class Showcase extends Component {
             <div className='col-md-6  text-white font-1'>
                 <h1 className='text-warning'>WIDE</h1>
                 <p >Is an acronym for What-I-Do ecards. It is aimed at giving every individual in KKTC an opportunity to own an e-business card.</p>
-                <p>So irrespective of profession, get on board now and show us what you do. It won't cost you a dime. Be it hair dressing, baking , photography, cooking etc or you just want to advertise yourself as available to work.</p>
+                <p>So irrespective of profession, get on board now and show us what you do. It won't cost you a dime. Be it hair dressing, baking , photography, cooking etc or just want to advertise yourself as available to work.</p>
                 <p className='lead'>For enquires or complaints hit the button below.</p>
                 <a href='mailto:ojigboleo@gmail.com' className='btn btn-outline-warning'>Send a Mail</a>
                 <p className='mt-2'><b > Help keep this app free. Become a Patron with a minimum of 1 dollar or more a month!!!</b></p>
