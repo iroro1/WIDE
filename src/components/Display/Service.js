@@ -6,7 +6,7 @@ export default function Service(props) {
         <div>
                 <div style={cardstyle} className='cardstyle '>
                     <div >
-                    <h3 className='primary text-center'>{props.firstName}  {props.lastName}</h3>
+                    <h3 className='primary text-center mt-1'>{props.firstName}  {props.lastName}</h3>
                         <p className='text-light text-center'> {props.title} </p>
                         <p className='text-light'> {props.service} In {props.location}.</p>
                         <div className="rh">
@@ -30,15 +30,15 @@ const cardstyle ={
   width: '100%',
   height: '300px',
   overflow: 'hidden',
-  background:' linear-gradient(to left,rgba(54, 39, 51, 0.644), rgba(46, 54, 44, 0.842) )' ,
+  background:' linear-gradient(to left,rgba(54, 39, 51, 0.644), rgba(116, 54, 44, 0.842) )' ,
   borderRadius: '10px',
   transition: 'all 1s ease-in-out',
-  padding: '15px',
+  padding: '1rem',
   fontSize: '.85rem',
   display: 'flex',
   lineHeight: '1.2',
   flexDirection: 'column',
-  boxShadow:' -1px 10px 15px rgba(0,0,0,0.29), 0 6px 6px rgba(0,0,0,0.33)',
+  boxShadow:' -1px 10px 15px rgba(0,0,0,0.59), 0 6px 6px rgba(0,0,0,0.3)',
   margin: '2px'
 }
 const ico = {
