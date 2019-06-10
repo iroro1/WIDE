@@ -8,13 +8,13 @@ export default function Service(props) {
                     <div >
                     <h3 className='primary text-center mt-1'>{props.firstName}  {props.lastName}</h3>
                         <p className='text-light text-center'> {props.title} </p>
-                        <p className='text-light'> {props.service} In {props.location}.</p>
+                        <p className='text-light'> {props.service}{" "} In {" "} {props.location}.</p>
                         <div className="rh">
                         <p><i className='fas fa-phone primary mr-2'></i><a className='text-white ' href={`tel:${props.phone}`}>{props.phone}.</a> </p><p> <i className='fas fa-envelope primary mr-2'></i><a className='text-white' href={`mailto:${props.email}`}> {props.email}.</a></p>
                         </div>
                     </div>
                     <div style={ico}>     
-                        <div style={icoInner} className='text-warning p-2  ' target='_blank' ><i className="fab fa-instagram fa-2x"></i>
+                        <div style={icoInner} className='text-warning p-1  ' target='_blank' ><i className="fab fa-instagram fa-2x"></i>
                         <p className="text-white">{props.insta}</p></div>
                         <div style={icoInner} className='text-warning p-2 ' target='_blank' ><i className="fab fa-twitter fa-2x"></i>
                         <p className="text-white">{props.twt}</p></div>
@@ -28,26 +28,31 @@ export default function Service(props) {
 
 const cardstyle ={
   width: '100%',
-  height: '310px',
+  height: '350px',
   overflow: 'hidden',
   background:' linear-gradient(to left,rgba(54, 39, 51, 0.644), rgba(116, 54, 44, 0.842) )' ,
   borderRadius: '10px',
   transition: 'all 1s ease-in-out',
-  padding: '1rem',
+  padding: '1.5rem',
   fontSize: '.85rem',
   display: 'flex',
   lineHeight: '1.2',
   flexDirection: 'column',
   boxShadow:' -1px 10px 15px rgba(0,0,0,0.59), 0 6px 6px rgba(0,0,0,0.3)',
-  margin: '2px'
+  margin: '2px',
+//   alignItems: 'space-between',
 }
 const ico = {
     display: 'flex',
-    justifyContent: 'space-around'
+    flexWrap:'wrap',
+    justifyContent: 'space-around',
+  padding: '1.5rem',
+
 }
 
 const icoInner ={
     display: 'flex',
     flexDirection: 'column',
     textAlign: 'center',
+    flexWrap: 'wrap'
 }
