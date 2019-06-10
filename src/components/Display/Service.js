@@ -28,7 +28,7 @@ export default function Service(props) {
 
 const cardstyle ={
   width: '100%',
-  height: '330px',
+  height: '310px',
   overflow: 'hidden',
   background:' linear-gradient(to left,rgba(54, 39, 51, 0.644), rgba(116, 54, 44, 0.842) )' ,
   borderRadius: '10px',
