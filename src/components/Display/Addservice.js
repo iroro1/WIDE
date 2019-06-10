@@ -90,7 +90,7 @@ onChange = (e) => {this.setState({[e.target.name] : e.target.value})}
                     
                     <div className='col-md-12 mb-2'>
                     <input className='form-control bg-light text-dark ' type='text' name='title' placeholder='Title (eg. Computer Technician)' 
-                    maxLength ="15"                    
+                    maxLength ="20"                    
                     required
                     value={this.state.title}
                     onChange={this.onChange}

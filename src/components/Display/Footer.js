@@ -20,7 +20,7 @@ export class Footer extends Component {
         </div> 
         </div>
         
-        <p style={footer}>&copy; 2019 Leo Ojigbo.</p>
+        <p style={footer}>&copy; 2019 WIDE | By Leo Ojigbo.</p>
       </div>
     )
   }
