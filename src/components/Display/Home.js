@@ -49,7 +49,7 @@ export default class Home extends Component {
                 <h2 className="text-center pt-4 text-primary"> Services</h2>
             <div className='container text-center'>
                 <i className='fas fa-star fa-2x text-warning mx-2'></i>
-                <b className='text-center text-danger lead '>Promoted e-cards</b>.<blockquote className='text-danger ml-3 '>Let people find you quickly by featuring a special ad that requires no scrolling down the long list. Send a Mail to get featured. View all <Link to='/services' className='nav-link text-red'><i className="fas fa-book mr-2"></i>Service E-Cards</Link> .</blockquote>
+                <b className='text-center text-danger lead '>Promoted e-cards</b>.<blockquote className='text-danger ml-3 '>Let people find you quickly by featuring a special ad that requires no scrolling down the long list. Send a Mail to get featured. View all <Link to='/services' className='nav-link text-red'><i className="fas fa-book mr-2"></i>Service E-Cards</Link> </blockquote>
                 
             </div>
                 <div className='container'>

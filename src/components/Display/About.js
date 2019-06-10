@@ -16,7 +16,7 @@ function About() {
             </div>
             </div>
             <div className='container py-2'>
-                <p className='lead'>Wide was designed and developed by Leo  to link small scale businesses and startups to the public for free. Just upload your business cards and people can reach out to you. Avoid fraudulent activities and stay safe online as you transact business. Where ever you are on the Island, upload your e-business cards today and make it easier for people to find you..</p>
+                <p className='lead'>Wide was designed and developed by Leo  with the main aim of linking small scale businesses and startups, with the public for free. Just upload your business cards and people can reach out to you. Avoid fraudulent activities and stay safe online as you transact your business. Wherever you are on the Island, upload your e-business cards today and make it easier for people to find you.</p>
                 <p className=" text-right text-primary "><a className=' p-2 nav-link' href='mailto:ojigboleo@gmail.com'>
                 Send a mail if you wish to reach out. 
                 </a></p>
@@ -29,7 +29,7 @@ const jumb = {
     padding: "1rem",
     background:' linear-gradient(to left,rgba(54, 39, 51, 0.644), rgba(116, 54, 44, 0.842) )',
     margin: "auto",
-    width:"60%",
+    width:"100%",
     borderRadius:"15px",
     display : "flex",
     flexDirection: "column",
