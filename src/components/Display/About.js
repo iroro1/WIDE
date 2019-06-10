@@ -10,7 +10,7 @@ function About() {
             <meta name='description' content="The about page of the What-I-Do." />
             <meta name='keywords' content="Services, E-cards, Trnc, kktc, cakes in cyprus, free ads cyprus, put up freee ads" />
             </Helmet>
-            <div className=' col-md-12' >
+            <div className='mt-5 col-md-12' >
             <div  style={jumb}>
             <h1 className='display-3 text-center text-white'>About W<span className='text-warning'>I</span>D<span className='text-warning'>E</span></h1>
             </div>
@@ -27,9 +27,10 @@ function About() {
 
 const jumb = {
     padding: "1rem",
-    marginTop: "3rem",
-    background : "rgba(10,10,60,0.5)",
+    background:' linear-gradient(to left,rgba(54, 39, 51, 0.644), rgba(116, 54, 44, 0.842) )',
     margin: "auto",
+    width:"80%",
+    borderRadius:"15px",
     display : "flex",
     flexDirection: "column",
     justifyContents: "center",
